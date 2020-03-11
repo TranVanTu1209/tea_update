@@ -102,7 +102,7 @@
 			
 		</header>
 		<!-- nav-sidebar -->
-		<section id="loan-control-customer-admin" class="home-page">
+		<section id="loan-control-customer" class="home-page">
 			
 			<main class="right-content list-customer-content">
 				
@@ -139,19 +139,39 @@
 									<th>
 										Chi tiết
 									</th>
+									<th>
+										Lựa chọn
+									</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									
 									<td>#f487583</td>
 									<td>13/8/2020</td>
 									<td>4000 kg</span></td>
 									<td>20.000.000 đ</td>
 									<td>11.500.000 đ</td>
 									<td><a href="loan_customer_pay.html">View</a></td>
+									<td><input type="checkbox" name="" id="" ></td>
 								</tr>
-								
+								<tr>
+									<td>#f487583</td>
+									<td>13/8/2020</td>
+									<td>4000 kg</span></td>
+									<td>20.000.000 đ</td>
+									<td>11.500.000 đ</td>
+									<td><a href="loan_customer_pay.html">View</a></td>
+									<td><input type="checkbox" name="" id="" ></td>
+								</tr>
+								<tr>
+									<td>#f487583</td>
+									<td>13/8/2020</td>
+									<td>4000 kg</span></td>
+									<td>20.000.000 đ</td>
+									<td>11.500.000 đ</td>
+									<td><a href="loan_customer_pay.html">View</a></td>
+									<td><input type="checkbox" name="" id="" ></td>
+								</tr>
 								
 							</tbody>
 							<tfoot class="tfoot-light">
@@ -162,12 +182,55 @@
 									<td>50.000.000 đ</td>
 									<td>30.000.000 đ</td>
 									<td>-</td>
-								
+									<td>-</td>
 								</tr>
 							</tfoot>
 						</table>
 					</div>
-					<!-- add new customer section -->
+					<!-- pay many order same time -->
+					<!-- payment section -->
+					<div class="pay-order mt-2 d-flex justify-content-end">
+						<button
+							class="btn btn-primary"
+							data-toggle="modal"
+							data-target="#order-loan-payment"
+							type="button"
+						>
+							Thanh toán đơn đã chọn
+						</button>
+						<div
+							class="modal fade text-dark"
+							id="order-loan-payment"
+							role="dialog"
+						>
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title">Thanh toán nợ</h4>
+										<button type="button" data-dismiss="modal">
+											&times;
+										</button>
+									</div>
+									<div class="modal-body">
+
+										<form action="">
+											<div class="form-group">
+												Tổng nợ các đơn đã chọn :
+												<span class="order-value"> 20.000.000 đ</span>
+											</div>
+										
+											<input
+												type="submit"
+												class="btn btn-success d-block m-auto"
+												value="Xác nhận thanh toán"
+											/>
+										</form>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</main>
 		</section>

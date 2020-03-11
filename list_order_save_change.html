@@ -28,17 +28,17 @@
 	<!-- admin home page -->
 	<header id="main-header">
 		<nav class="navbar navbar-expand-lg navbar-light bg-navbar">
-			<a class="navbar-brand" href="customer_list.html">
+			<a class="navbar-brand" href="index.html">
 				<img src="./img/logo.png" alt="">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			
+		
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link current" href="customer_list.html">Khách hàng</a>
+						<a class="nav-link" href="customer_list.html">Khách hàng</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="product_list.html"
@@ -47,47 +47,52 @@
 					</li>
 
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+						role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Công nợ
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Chưa thanh toán</a>
-							<a class="dropdown-item" href="#">Đã thanh toán</a>
+							<a class="dropdown-item" href="loan_customer_list.html">Chưa thanh toán</a>
+							<a class="dropdown-item" href="loan_list_paid.html">Đã thanh toán</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+						role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Thanh toán đơn
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Chưa thanh toán</a>
-							<a class="dropdown-item" href="#">Đã thanh toán</a>
+							<a class="dropdown-item" href="payment_list.html">Chưa thanh toán</a>
+							<a class="dropdown-item" href="payment_list_paid.html">Đã thanh toán</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+						 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Báo cáo
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Báo cáo ngày</a>
-							<a class="dropdown-item" href="#">Báo cáo tuần</a>
-							<a class="dropdown-item" href="#">Báo cáo tháng</a>
-							<a class="dropdown-item" href="#">Báo cáo năm</a>
+							<a class="dropdown-item" href="report_time_day.html">Báo cáo ngày</a>
+							<a class="dropdown-item" href="report_time_week.html">Báo cáo tuần</a>
+							<a class="dropdown-item" href="report_time_month.html">Báo cáo tháng</a>
+							<a class="dropdown-item" href="report_time_year.html">Báo cáo năm</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle current" href="#" id="navbarDropdown"
+						 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Danh sách đơn
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Đơn đã lưu</a>
-							<a class="dropdown-item" href="#">Đơn đã gửi</a>
+							<a class="dropdown-item" href="list_order_save.html">Đơn đã lưu</a>
+							<a class="dropdown-item" href="list_order_send.html">Đơn đã gửi</a>
 						</div>
 					</li>
 				</ul>
 					<!-- user info section -->
 					<div class="user-wrap dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+						role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<i class="fas fa-user-shield"></i> Admin</a>
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -96,8 +101,7 @@
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="signin.html">Đăng xuất</a>
 						</div>
-					</div>
-		
+					</div>		
 			</div>
 		</nav>
 	</header>

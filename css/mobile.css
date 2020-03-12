@@ -1,6 +1,11 @@
 @media (max-width : 736px) {
-  .container {
-    padding: 0;
+ 
+  .list-customer-header {
+    flex-direction: column;
   }
-
+  .list-customer-header input {
+    margin: 0.5rem 0;
+  }
+ 
 }
+

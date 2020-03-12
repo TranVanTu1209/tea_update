@@ -192,3 +192,10 @@ section.home-page main.right-content .list-customer-order-details .form-group {
   width: 20px;
   height: 20px;
 }
+button.navbar-toggler {
+  border: none;
+  outline: none;
+}
+button.navbar-toggler i.fa-bars {
+  font-size: 2rem;
+}
